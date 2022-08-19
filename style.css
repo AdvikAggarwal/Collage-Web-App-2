@@ -1,0 +1,59 @@
+#header
+{
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-size: 100px;
+}
+
+.camera
+{
+    width: fit-content;
+    height: fit-content;
+    border: 2px ridge;
+}
+
+.section
+{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+}
+.info
+{
+    font-family: 'Redressed', cursive;
+}
+#warning
+{
+    font-family: 'Rubik Mono One', sans-serif;
+    color: red;
+}
+#footer
+{
+    text-align:center;
+    font-family: 'DynaPuff', cursive;
+}
+body
+{
+    background-color: lightgrey;
+}
+.image
+{
+    box-shadow: 30px 30px 30px black;
+    height: fit-content;
+    width: fit-content; 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border1.png) 30 round;
+}
+.image:hover
+{
+    height: 70%;
+    width: 70%;
+}
+#photo_button
+{
+    border-radius: 100%;
+}
+#take_photo
+{
+    font-family: 'Rubik Iso', cursive;
+    font-size: 30px;
+}
